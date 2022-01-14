@@ -1,0 +1,31 @@
+.frame {
+    border: 2px solid red;
+    display: flex;
+    
+}
+
+
+.sidebar {
+    border: 2px solid blue;
+    background-color: tomato;
+    width: 20%;
+    height: 400px;
+    padding: 0%, 10%, 10%, 10%;
+}
+
+.container{
+    border: 2px solid blue;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+
+}
+.card {
+    border: 2px solid green;
+    background-color: turquoise;
+    height: 6%;
+    padding: 14%;
+    margin: 1%;
+    justify-content: space-between;
+}
